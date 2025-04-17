@@ -32,7 +32,6 @@ Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-com
 
 ```plaintext
 /
-|-- admin/            # React.js admin frontend code
 |-- backend/          # Node.js backend code (Express.js)
 |-- frontend/         # React.js frontend code
 |-- .gitignore        # Files and folders to be ignored by Git
@@ -54,7 +53,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
+git clone https://github.com/Abhirkt1996/Trendify-clone.git
 ```
 
 **Installation**
@@ -90,9 +89,9 @@ CLOUDINARY_CLOUD_NAME =
 
 JWT_SECRET =
 
-ADMIN_EMAIL = "admin@trendify.com" #For testing only
+EMAIL = "Abc@trendify.com" #For testing only
 
-ADMIN_PASSWORD = "admin@123" #For testing only
+PASSWORD = "Abc@123" #For testing only
 
 ```
 
@@ -141,8 +140,6 @@ cd frontend
 npm run dev
 ```
 
-Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
-
-Open [http://localhost:400](http://localhost:400) in your browser to run the backend.
+Open [http://localhost:4000](http://localhost:4000) in your browser to run the backend.
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
